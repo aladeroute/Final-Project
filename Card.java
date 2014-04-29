@@ -3,7 +3,7 @@
  * A card consists of a suit value and a rank value.  Once instantiated, the
  * Card object cannot change.
  *
- * @Jackie Horton
+ * Andrew Laderoute
  */
 
 public class Card 
