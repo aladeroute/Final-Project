@@ -561,8 +561,18 @@ public class Hands
          player2.remove(0);
          }
                
+   
    }
    
+   public ArrayList<ImageIcon> player1Hand()
+   {
+      return player1Images;
+   }
+   
+   public ArrayList<ImageIcon> player2Hand()
+   {
+      return player2Images;
+   }
 }
    
    
