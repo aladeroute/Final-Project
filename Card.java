@@ -91,7 +91,7 @@ public class Card
    public String getRankAsString() 
    {
         switch ( rank ) {
-           case 1:   return "Ace";
+           case 14:   return "Ace";
            case 2:   return "2";
            case 3:   return "3";
            case 4:   return "4";

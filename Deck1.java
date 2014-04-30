@@ -15,7 +15,7 @@ public class Deck1
       deck = new ArrayList<Card>();
       System.out.println(deck.size());
 
-      for (int r = Card.ACE; r<=Card.KING;r++)
+      for (int r = 2; r<=Card.ACE;r++)
       {
          for (int s=Card.SPADES;s<=Card.CLUBS;s++)
          {

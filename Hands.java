@@ -27,10 +27,11 @@ public class Hands
          player2.add(deck.dealCard());
          
       }
-      card = player1.remove(0);
+      
       
       while (player1.size() != 0)
       {
+         card = player1.remove(0);
          if (card.getRank()==2 && card.getSuit()==0)
          {
             i = new ImageIcon("2s.jpg");
@@ -291,13 +292,14 @@ public class Hands
             i = new ImageIcon("acec.jpg");
             player1Images.add(i);
          } 
-         player1.remove(0);
+         
       } 
       
-      card = player2.remove(0);
+      
       
       while (player2.size() != 0)
       {
+         card = player2.remove(0);
          if (card.getRank()==2 && card.getSuit()==0)
          {
             i = new ImageIcon("2s.jpg");
@@ -558,7 +560,7 @@ public class Hands
             i = new ImageIcon("acec.jpg");
             player2Images.add(i);
          } 
-         player2.remove(0);
+         
          }
                
    
